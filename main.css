@@ -58,3 +58,14 @@ body {
   outline: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 }
+
+.quote {
+  font-size: var(--small);
+  position: fixed;
+  bottom: 0;
+  max-width: 800px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  text-align: center;
+}
