@@ -69,3 +69,49 @@ body {
   font-weight: 300;
   text-align: center;
 }
+
+.bookmark-open {
+  width: 240px;
+  padding: 15px 30px;
+  font-size: var(--xsmall);
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bookmark-close {
+  width: 240px;
+  padding: 15px 30px;
+  font-size: var(--xsmall);
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bookmark-open div {
+  cursor: pointer;
+}
+
+.bookmark-close div {
+  cursor: pointer;
+}
+
+.bookmark-bar {
+  width: 240px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  min-height: calc(100vh - 70px);
+  padding: 10px 30px;
+  color: white;
+}
